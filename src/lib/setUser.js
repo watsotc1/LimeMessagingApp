@@ -12,10 +12,10 @@ export default async (id, keyPair) => {
 
   if (
     response.me?.publicKeyJwk &&
-    response.me.publicKeyJwk != JSON.stringify(keyPair.publicKeyJwk)
+    response.me.publicKeyJwk !== JSON.stringify(keyPair.publicKeyJwk)
   ) {
     await chatClient.disconnect();
-    throw "This user id already exists with a different key pair. Choose a new user id or paste the correct key pair.";
+    throw new Error("This User ID already exists!");
   }
 
   await chatClient.upsertUsers([

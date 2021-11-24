@@ -16,6 +16,6 @@ export default async (text, derivedKey) => {
 
     return new TextDecoder().decode(decryptedData);
   } catch (e) {
-    return `error decrypting message: ${e}`;
+    return `Error Decrypting Message: ${e}`;
   }
 };

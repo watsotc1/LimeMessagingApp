@@ -19,7 +19,7 @@ export default (props) => {
     };
 
     derive();
-  }, [sender, recipient]);
+  }, [sender, recipient, onSubmit]);
 
   return (
     <div>

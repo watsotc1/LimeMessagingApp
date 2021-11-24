@@ -1,13 +1,12 @@
-import React, { useEffect, useState, memo } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Chat,
   Channel,
   ChannelHeader,
   Thread,
   Window,
-  Message,
 } from "stream-chat-react";
-import { MessageList, MessageInput, SendButton } from "stream-chat-react";
+import { MessageList } from "stream-chat-react";
 
 import chatClient from "../lib/chatClient";
 

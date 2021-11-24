@@ -15,7 +15,7 @@ export default props => {
         }
         
         work()
-    }, [props])
+    }, [props, message])
 
     return (
         <MessageSimple { ...{...props, message }} />

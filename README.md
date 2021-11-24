@@ -1,41 +1,44 @@
-# 🔐💬 Encrypted Web Chat  [![](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2Fencrypted-web-chat)](https://twitter.com/intent/tweet?text=Want%20to%20secure%20your%20web%20chat%20app%20with%20the%20Web%20Crypto%20API%3F%20Learn%20how%3A&url=https%3A%2F%2Fgithub.com%2FGetStream%2Fencrypted-web-chat)
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/watsotc1/LimeMessagingApp">
+    <img src="public/logo192.png" alt="Logo" width="192" height="192">
+  </a>
+</p>
 
-<img align="right" src="https://i.imgur.com/lqSXw3K.gif" width="50%" />
 
-## 📚 Tutorial
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-This repository contains the completed React project following the [End-to-End Encrypted Chat with the Web Crypto API](https://getstream.io/blog/web-crypto-api-chat/) tutorial. You should read it before trying to run this project as it contains it may contain useful information not present in this README.
+Lime is a web based chat room service that provides users with end-to-end encryption for all messages between users.
 
-## ⚙️ Setup
+### Overall Design
 
-## Requirements
-- [Yarn](https://yarnpkg.com/)
-- A [Stream](https://getstream.io/accounts/signup/) account.
+TBD
 
-### Configuration
+### Built With
 
-You should place your [Stream Chat](https://getstream.io/chat) credentials in [`src/lib/chatClient.js`](src/lib/chatClient.js).
+* [Java Script](https://www.javascript.com/)
+* [Stream](https://getstream.io/accounts/signup/)
+* [Yarn](https://yarnpkg.com/)
 
-### Dependencies
 
-To install the dependencies, use Yarn in the root folder:
+<!-- GETTING STARTED -->
+## Getting Started
 
-```bash
-$ yarn install
-```
+To get a local copy up and running follow these simple steps.
 
-### Running
+1. Clone the repo:
+    ```
+    git clone https://github.com/watsotc1/LimeMessagingApp.git
+    ```
+2. Update Stream Chat credentials in [src/lib/chatClient.js](https://github.com/watsotc1/LimeMessagingApp/blob/main/src/lib/chatClient.js). 
+3. To install all dependencies, run the following within the root folder.
+    ```
+    yarn install
+    ```
+4. To deploy web application, run the following within the root folder.
+    ```
+    yarn start
+    ```
 
-To run the web app, use Yarn in the root folder:
-
-```bash
-$ yarn start
-```
-
-## 🔗 Helpful Links
-
-- [W3C: Web Crypto API](https://getstream.io/blog/build-imessage-clone/)
-- [MDN: Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)
-- [Stream Chat React Tutorial](https://getstream.io/tutorials/react-chat/)
-- [Stream Chat React Repo](https://github.com/GetStream/stream-chat-react/)
-- [Stream Chat React Docs](https://getstream.io/chat/docs/introduction/?language=js)
